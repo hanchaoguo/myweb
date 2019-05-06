@@ -1,0 +1,188 @@
+<!-- 添加Lcience信息-->
+<div class="modal fade" id='book_add_modal'>
+  <div class="modal-dialog" style="width:40%">
+    <div class="modal-content">
+
+        <div class="modal-header" style="background:cornflowerblue; color:white">
+         <i class="fa fa-info-circle"></i>
+         <span style="font-weight:bold">添加Licience</span>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+
+        <div class="modal-body" style="text-align:center">
+           <form class="form-horizontal" id = "AddForm">
+
+                <div class="form-group">
+                      <label  class="col-sm-4 control-label"><span style="color:red; margin-right:10px">*</span>产品名称</label>
+                      <div class="col-sm-8">
+                           <select class="select2 form-control" name="ProductName" data-placeholder="请选择...">
+                                    <option value="-1"></option>
+                                    <option value="1">天蝎情报局</option>
+                                    <option value="2">射手台湾</option>
+                                    <option value="3">射手香港</option>
+                                    <option value="4">射手半岛</option>
+                                    <option value="5">射手美瞳</option>
+                                    <option value="6">射手中东</option>
+                                    <option value="7">射手东南亚</option>
+                                    <option value="8">射手飞狮</option>
+                                    <option value="9">射手猎英</option>
+                                    <option value="10">射手反恐</option>
+                                    <option value="11">水瓶治理</option>
+                                    <option value="12">双子密网</option>
+                                    <option value="13">壁虎浏览器</option>
+                                    <option value="14">双鱼知识图谱</option>
+                                    <option value="15">金牛咨询</option>
+                                    <option value="16">天鹰情报局</option>
+                                    <option value="17">天鹰台湾</option>
+                                    <option value="18">天鹰香港</option>
+                                    <option value="19">天鹰半岛</option>
+                                    <option value="20">天鹰美瞳</option>
+                                    <option value="21">天鹰中东</option>
+                                    <option value="22">天鹰东南亚</option>
+                                    <option value="23">天鹰飞狮</option>
+                                    <option value="24">天鹰猎英</option>
+                                    <option value="25">天鹰反恐</option>
+                          </select>
+                     </div>
+                 </div>
+
+                  <div class="form-group">
+                      <label  class="col-sm-4 control-label"><span style="color:red; margin-right:10px">*</span>licience类别</label>
+                      <div class="col-sm-8">
+                           <select class="select2 form-control"  name="LicienceClass" data-placeholder="请选择licience...">
+                               <option value="-1"></option>
+                               <option value="用户使用">用户使用</option>
+                               <option value="渠道演示">渠道演示</option>
+                               <option value="意向试用">意向试用</option>
+                               <option value="培训演示">培训演示</option>
+			  </select>
+ 
+                     </div>
+                 </div>
+                 
+                  
+                  <div class="form-group">
+                      <label  class="col-sm-4 control-label"><span style="color:red; margin-right:10px">*</span>账号</label>
+                      <div class="col-sm-8">
+                          <input name="AccountName" type="text" class="form-control" placeholder="账号" />
+                      </div>
+                  </div>
+                 
+                                    
+                  <div class="form-group">
+                      <label  class="col-sm-4 control-label"><span style="color:red; margin-right:10px">*</span>网神账号</label>
+                      <div class="col-sm-8">
+                          <input name="WangshenName" type="text" class="form-control" placeholder="网神账号"/>
+                      </div>
+                  </div>
+
+                   
+                  <div class="form-group">
+                      <label  class="col-sm-4 control-label"><span style="color:red; margin-right:10px">*</span>商机ID</label>
+                      <div class="col-sm-8">
+                          <input name="BusinessId" type="text" class="form-control" placeholder="商机ID"/>
+                      </div>
+                  </div>
+
+                  
+                  <div class="form-group">
+                      <label  class="col-sm-4 control-label"><span style="color:red; margin-right:10px">*</span>商机年份</label>
+                      <div class="col-sm-8">
+                          <input name="BusinessYear" type="text" class="form-control" placeholder="商机年份"/>
+                      </div>
+                  </div>
+                   
+                  <div class="form-group">
+                      <label  class="col-sm-4 control-label"><span style="color:red; margin-right:10px">*</span>申请单编号</label>
+                      <div class="col-sm-8">
+                          <input name="ApplicationNumber" type="text" class="form-control" placeholder="申请单编号"/>
+                      </div>
+                  </div>
+
+                                    
+                  <div class="form-group">
+                      <label  class="col-sm-4 control-label"><span style="color:red; margin-right:10px">*</span>DogSN</label>
+                      <div class="col-sm-8">
+                          <input name="DogSn" type="text" class="form-control" placeholder="DogSN"/>
+                      </div>
+                  </div>
+
+                                    
+                  <div class="form-group">
+                      <label  class="col-sm-4 control-label"><span style="color:red; margin-right:10px">*</span>设备SN</label>
+                      <div class="col-sm-8">
+                          <input name="DeviceSn" type="text" class="form-control" placeholder="设备SN"/>
+                      </div>
+                  </div>
+
+                  
+                  <div class="form-group">
+                      <label  class="col-sm-4 control-label"><span style="color:red; margin-right:10px">*</span>设备信息</label>
+                      <div class="col-sm-8">
+                          <input name="DeviceInfo" type="text" class="form-control" placeholder="设备信息"/>
+                      </div>
+                  </div>
+                   
+                  
+                  <div class="form-group">
+                      <label  class="col-sm-4 control-label"><span style="color:red; margin-right:10px">*</span>资源ID</label>
+                      <div class="col-sm-8">
+                          <input name="ResourcesId" type="text" class="form-control" placeholder="资源ID"/>
+                      </div>
+                  </div>
+
+                  
+                 <div class="form-group">
+                    <label class="col-sm-4 control-label"><span style="color:red; margin-right:10px">*</span>激活时间</label>
+                    <div class="col-sm-8">
+			 <input type="date"  class="form-control" name="OpenTime" placeholder="年-月-日">
+                   </div>
+               </div>
+
+                  
+                 <div class="form-group">
+                    <label class="col-sm-4 control-label"><span style="color:red; margin-right:10px">*</span>失效时间</label>
+                    <div class="col-sm-8">
+			 <input type="text" class="form-control datepicker"  name="ExpiryTime" placeholder="年-月-日">
+                   </div>
+               </div>
+
+                  
+                  <div class="form-group">
+                      <label  class="col-sm-4 control-label"><span style="color:red; margin-right:10px">*</span>延期说明</label>
+                      <div class="col-sm-8">
+                          <input name="PostponementInfo" type="text" class="form-control" placeholder="延期说明"/>
+                      </div>
+                  </div>
+                    
+                  
+                  <!--div class="form-group">
+                      <label  class="col-sm-4 control-label"><span style="color:red; margin-right:10px">*</span>出版商</label>
+                      <div class="col-sm-8">
+                           <select class="select2 form-control"  name="publisher" data-placeholder="请选择出版商..." >
+				{% for publish in publishs %}
+				    <option value="{{publish.id }}">{{ publish.name }}</option>
+				{% endfor %}
+			  </select>
+                      </div>
+                 </div>
+
+                 <div class="form-group">
+                    <label class="col-sm-4 control-label"><span style="color:red; margin-right:10px">*</span>出版时间</label>
+                    <div class="col-sm-8">
+			 <input type="text" class="form-control datepicker"  name="publication_date" placeholder="年-月-日">
+                   </div>
+               </div--!>
+               
+		<div class="modal-footer">
+		    <button class="btn btn-default modalbtn" data-dismiss="modal">关闭</button>
+		    <button class="btn btn-primary" id="submit_button">确定</button>
+		</div>
+           
+         </form>
+        </div>
+
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
